@@ -1,0 +1,72 @@
+@media ( max-width:426px ) {
+    .banner_section .banner_section_part{
+        justify-content: center;
+    }
+    .banner_section .banner_section_text{
+        text-align: center;
+    }
+    .banner_section .banner_section_picture{
+        margin: 50px auto 0 auto;
+    }
+    .about_section .about_section_part .about_section_photo{
+        margin: 0 auto 20px auto;
+    }
+    .about_section .about_section_part .about_section_text{
+        text-align: center;
+    }
+    .abilities_section .abilities_section_text{
+        margin: 0 10px;
+    }
+    .abilities_section .abilities_section_part{
+        margin-bottom: 20px;
+    }
+    .service_section .service_section_part .service_section_parts{
+        margin-bottom: 30px;
+        width: 70%;
+    }
+    .hire_section .hire_section_form{
+        margin-top: 30px;
+    }
+    .contact_section .contact_section_text .contact_section_text_part{
+        display: flex;
+        justify-content: center;
+    }
+    .contact_section .contact_section_text .contact_section_text_parts{
+        width: 70%;
+    }
+}
+
+
+@media ( min-width:427px ) and ( max-width :769px ) {
+    .banner_section .banner_section_part{
+        justify-content: center;
+    }
+    .banner_section .banner_section_text{
+        text-align: center;
+    }
+    .banner_section .banner_section_picture{
+        margin: 50px auto 0 auto;
+        width: 50%;
+    }
+    .about_section .about_section_part .about_section_photo{
+        margin: 0 auto 20px auto;
+        width: 30%;
+    }
+    .about_section .about_section_part .about_section_text{
+        text-align: center;
+    }
+    .service_section .service_section_part .service_section_parts{
+        margin-bottom: 30px;
+    }
+    .hire_section .hire_section_form{
+        margin-top: 30px;
+        padding: 0 100px;
+    }
+    .contact_section .contact_section_text .contact_section_text_part{
+        display: flex;
+        justify-content: center;
+    }
+    .contact_section .contact_section_text .contact_section_text_parts{
+        width: 40%;
+    } 
+}
